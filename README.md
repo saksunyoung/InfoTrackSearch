@@ -32,7 +32,8 @@ cd InfoTrack
 ```
 
 2. Backend Setup:
-   From the InfoTrack Folder:
+   
+From the InfoTrack Folder:
 
 ```
 cd Backend
@@ -42,7 +43,8 @@ dotnet run
 ```
 
 3. Frontend Setup:
-   From the InfoTrack Folder:
+   
+From the InfoTrack Folder:
 
 ```
 cd Frontend
