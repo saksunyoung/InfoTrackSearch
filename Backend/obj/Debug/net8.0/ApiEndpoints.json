@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "InfoTrackSearch.Controllers.SearchController",
+    "Method": "Search",
+    "RelativePath": "api/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "InfoTrackSearch.Models.SearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
