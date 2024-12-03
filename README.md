@@ -27,13 +27,13 @@ It's best to open a terminal for both the backend and the frontend.
 1. Clone the Repository:
 
 ```
-git clone https://github.com/saksunyoung/InfoTrack.git
-cd InfoTrack
+git clone https://github.com/saksunyoung/InfoTrackSearch.git
+cd InfoTrackSearch
 ```
 
 2. Backend Setup:
    
-From the InfoTrack Folder:
+From the InfoTrackSearch Folder:
 
 ```
 cd Backend
@@ -44,7 +44,7 @@ dotnet run
 
 3. Frontend Setup:
    
-From the InfoTrack Folder:
+From the InfoTrackSearch Folder:
 
 ```
 cd Frontend
