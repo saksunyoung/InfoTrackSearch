@@ -11,20 +11,20 @@ Frontend: React.js
 
 ## Features
 
-Keyword and URL Input: Users can input search phrases and a URL to search.
-Google Scraper: Scrapes Google search results without using third-party libraries or APIs.
-Rankings Display: Shows the positions where the URL appears in search results.
-Enhanced User Experience: Includes an animated spinner during searches and error handling for failed requests.
+- Keyword and URL Input: Users can input search phrases and a URL to search.
+- Google Scraper: Scrapes Google search results without using third-party libraries or APIs.
+- Rankings Display: Shows the positions where the URL appears in search results.
+- Enhanced User Experience: Includes an animated spinner during searches and error handling for failed requests.
 
 ## Prerequisites
 
-.NET 8
-C# 12
-Node.js and npm (for React)
+- .NET 8
+- C# 12
+- Node.js and npm (for React)
 
-CORS is configured in the backend to allow requests from the React frontend running on http://localhost:3000. Ensure no issues arise by using the same ports specified in this README.
+CORS is configured in the backend to allow requests from the React frontend running on `http://localhost:3000`. Ensure no issues arise by using the same ports specified in this README.
 
-It's best to open a terminal for both the backend and the frontend.
+It's best to open a separate terminal for both the backend and the frontend.
 
 1. Clone the Repository:
 
@@ -88,4 +88,4 @@ npm start
 - Track historical ranking trends.
 - Extend functionality to support additional search engines.
 - Improve UI/UX design for better user interaction.
-- Backend is temporamental - this seems to be due to Google's anti-scraping mechanism.
+- The backend scraper is temperamental—this seems to be due to Google's anti-scraping mechanism. This could be remedied by implementing strategies such as rotating IP addresses, using headless browsers like Puppeteer or Playwright to mimic human behaviour or introducing delays between requests.
