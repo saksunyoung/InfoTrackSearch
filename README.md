@@ -22,6 +22,8 @@ Enhanced User Experience: Includes an animated spinner during searches and error
 C# 12
 Node.js and npm (for React)
 
+CORS is configured in the backend to allow requests from the React frontend running on http://localhost:3000. Ensure no issues arise by using the same ports specified in this README.
+
 It's best to open a terminal for both the backend and the frontend.
 
 1. Clone the Repository:
